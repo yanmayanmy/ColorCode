@@ -1,13 +1,19 @@
-const human = {
-    kind: 'Human'
+function Dude(name) {
+    this.name = name;
 }
 
-const me = Object.create(human)
+const me = new Dude('Yuta')
+console.log(me)
+console.log(Dude)
+console.log(me.__proto__)
+console.log(Dude.prototype)
 
-me.age = 24
-me.gender = 'male'
+Dude.prototype.talk = function() {
+    return 'Talking'
+}
 
-const you = Object.create(me)
-you.age = 20
+console.log(me.talk())
+console.log(me.__proto__)
+console.log(me.prototype)
+console.log(Dude.prototype)
 
-console.log(you)
