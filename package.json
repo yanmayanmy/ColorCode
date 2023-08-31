@@ -1,0 +1,15 @@
+{
+  "name": "colorcode",
+  "version": "1.0.0",
+  "description": "## Link [YouTube Playlist](https://youtube.com/playlist?list=PL1PqvM2UQiMoGNTaxFMSK2cih633lpFKP&feature=shared)",
+  "main": "inheritance.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node_modules/.bin/http-server"
+  },
+  "author": "Yanmy",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
